@@ -291,6 +291,12 @@ header.scrolled .logo{
       max-width: 300px;
     }
 
+    .row{
+      
+      
+      min-width: 400px;
+    }
+
     
     
   
@@ -321,30 +327,10 @@ header.scrolled .logo{
     text-transform: uppercase;
 }
 
-.card-01{
-    background-color: beige;
-    position: relative;
-    flex: 1;
-    max-width: 300px;
-    height: 150px;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
 
-.card-02{
-    background-color: aquamarine;
-    position: relative;
-    flex: 1;
-    max-width: 460px;
-    height: 200px;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
 
 .card-03{
-    background-color: rgb(90, 226, 181);
+    background-color: white;
     position: relative;
     flex: 1;
     max-width: 940px;
