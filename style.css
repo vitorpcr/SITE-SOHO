@@ -11,18 +11,21 @@ body{
 }
 
 .imagem-logo{
-  
+ 
   width: 300px;
   height: 200px;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .imagem-logo img{
+  margin-top: 40px;
   padding-bottom: 80px;
-  width: 450px;
-  margin: auto;
- 
-  height: 330px;
+  max-width: 450px;
+  width: 500px;
+  min-width: 430px;
+  height: 430px;
 }
 
 
@@ -286,9 +289,9 @@ header.scrolled .logo{
     }
 
     .imagem-logo img{
-      margin: auto;
-     
-      max-width: 300px;
+      
+
+      max-width: 200px;
     }
 
     .row{
@@ -312,11 +315,13 @@ header.scrolled .logo{
 }
 
 .row{
+   
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     font-size: 15px;
+    margin-top: 40px;
     text-align: center;
     
 }
@@ -333,11 +338,18 @@ header.scrolled .logo{
     background-color: white;
     position: relative;
     flex: 1;
-    max-width: 940px;
-    height: 300px;
+    max-width: 340px;
+    height: 400px;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-03 a{
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 3px;
+  
 }
 
 @media (max-width: 800px){
