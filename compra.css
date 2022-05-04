@@ -41,12 +41,12 @@ body{
 }
 
 .roupas{
-    background-color: white;
+    background-color: rgb(241, 225, 194);
     height: 100vh;
 }
 
 .roupa-box{
-    background-color: blue;
+    
     margin: auto;
     margin-top: 60px;
     padding-top: 30px;
@@ -56,9 +56,65 @@ body{
 }
 
 .roupa-imagem{
+    border-radius: 30px;
     background-color: yellow;
     width: 500px;
-    height: 600px;
+    height: 500px;
     margin-top: 100px;
     margin-left: 70px;
+}
+
+.descricao{
+    
+    margin: 100px;
+    margin-right: 140px;
+    height: 80%;
+    width: 800px;
+}
+
+.descricao p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.tamanho-roupa{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.tamanho-roupa input{
+    margin-right: 20px;
+}
+
+@media (max-width: 540px){
+
+}
+
+@media (max-width: 450px){
+    .roupa-box{
+        max-width: 350px;
+        flex-direction: column;
+       
+        
+    }
+    .roupa-imagem, .descricao{
+        margin: auto;
+        margin-top: 30px;
+        max-width: 250px;
+    }
+    .descricao{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        
+        align-items: center;
+    }
+
+    .comprar input{
+        margin-top: 30px;
+        padding: 12px;
+        width: 120px;
+    }
 }
