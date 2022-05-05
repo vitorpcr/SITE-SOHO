@@ -93,16 +93,48 @@ body{
 }
 
 @media (max-width: 450px){
+
+    .roupas{
+        background-color: aliceblue;
+        max-width: 270px;
+    }
     .roupa-box{
-        max-width: 350px;
-        flex-direction: column;
        
         
+        max-width: 350px;
+        flex-direction: column;
+        background-color: red;
+       
+        
+    }
+    .menu-compra img{
+        background-color: red;
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .voltar{
+        margin: auto;
+        max-width: 350px;
+    }
+
+    .menu-compra{
+        margin: auto;
+        max-width: 350px;
+    }
+
+    .imagem-logo{
+        max-width: 250px;
     }
     .roupa-imagem, .descricao{
         margin: auto;
         margin-top: 30px;
         max-width: 250px;
+    }
+
+    .roupa-imagem img{
+        max-width: 350px;
+      
     }
     .descricao{
         flex-direction: column;
