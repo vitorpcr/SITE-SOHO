@@ -41,12 +41,13 @@ body{
 }
 
 .roupas{
-    background-color: rgb(241, 225, 194);
+    
     height: 100vh;
 }
 
 .roupa-box{
-    
+    border-radius: 50px;
+    background-color: rgb(132, 216, 205);
     margin: auto;
     margin-top: 60px;
     padding-top: 30px;
@@ -69,12 +70,14 @@ body{
     margin: 100px;
     margin-right: 140px;
     height: 80%;
-    width: 800px;
+    width: 500px;
 }
 
 .descricao p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
 }
 
 .tamanho-roupa{
@@ -92,61 +95,43 @@ body{
 
 }
 
-@media (max-width: 450px){
+@media (max-width: 350px){
 
-    .roupas{
-        background-color: aliceblue;
-        max-width: 270px;
-    }
-    .roupa-box{
-       
-        
-        max-width: 350px;
-        flex-direction: column;
-        background-color: red;
-       
-        
-    }
-    .menu-compra img{
-        background-color: red;
-        max-width: 350px;
-        margin: auto;
-    }
+    
+   
+}
 
-    .voltar{
-        margin: auto;
-        max-width: 350px;
-    }
+.botao-comprar{
+   
+    
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
-    .menu-compra{
-        margin: auto;
-        max-width: 350px;
-    }
 
-    .imagem-logo{
-        max-width: 250px;
-    }
-    .roupa-imagem, .descricao{
-        margin: auto;
-        margin-top: 30px;
-        max-width: 250px;
-    }
 
-    .roupa-imagem img{
-        max-width: 350px;
-      
-    }
-    .descricao{
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        
-        align-items: center;
-    }
+.botao-comprar button{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
-    .comprar input{
-        margin-top: 30px;
-        padding: 12px;
-        width: 120px;
-    }
+.comentar{
+    
+    margin: auto;
+    width: 190px;
+    height: 60px;
+   
+}
+.comentar textarea{
+    margin-top: 90px;
+    width: 200px;
+    height: 100px;
+    border-radius: 13px;
 }
