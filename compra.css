@@ -7,8 +7,12 @@ body{
     background-color: wheat;
 }
 
+
 .menu-compra{
-  
+    display: flex;
+    width: 400px;
+    margin: auto;
+   
     height: 200px;
 }
 
@@ -91,12 +95,59 @@ body{
     margin-right: 20px;
 }
 
-@media (max-width: 540px){
-
+@media (max-width: 900px){
+   .roupa-box{
+       flex-direction: column;
+       height: 800px;
+   }
+   .roupa-imagem{
+       max-width: 400px;
+       margin: auto;
+   }  
+      
+       
+   
+   .descricao{
+       margin: auto;
+       max-width: 450px;
+   }
+    
+   
 }
 
-@media (max-width: 350px){
+@media (max-width: 450px){
 
+    .menu-compra{
+        max-width: 250px;
+        display: flex;
+       
+    }
+    .menu-compra img{
+        
+        
+        width: 250px;
+    }
+    .roupa-box{
+        flex-direction: column;
+        height: 800px;
+    }
+    .roupa-imagem{
+        max-width: 230px;
+        margin: auto;
+    }  
+    .comentar textarea{
+        
+    
+        max-width: 150px;
+        margin: auto;
+    }
+       
+        
+    
+    .descricao{
+        margin: auto;
+        max-width: 150px;
+    }
     
    
 }
