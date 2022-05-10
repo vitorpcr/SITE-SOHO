@@ -51,7 +51,7 @@ body{
 
 .roupa-box{
     border-radius: 50px;
-    background-color: rgb(132, 216, 205);
+    
     margin: auto;
     margin-top: 60px;
     padding-top: 30px;
@@ -125,14 +125,15 @@ body{
     .menu-compra img{
         
         
-        width: 250px;
+        max-width: 250px;
     }
     .roupa-box{
         flex-direction: column;
         height: 800px;
     }
     .roupa-imagem{
-        max-width: 230px;
+        max-height: 250px;
+        max-width: 189px;
         margin: auto;
     }  
     .comentar textarea{
@@ -140,6 +141,9 @@ body{
     
         max-width: 150px;
         margin: auto;
+    }
+    .botao-comprar{
+        max-width: 150px;
     }
        
         
