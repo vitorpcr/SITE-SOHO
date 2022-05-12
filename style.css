@@ -8,6 +8,8 @@ body{
   overflow-x: hidden;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: wheat;
+  width: 100vw;
+  height: 100vh;
 }
 
 .imagem-logo{
@@ -405,5 +407,81 @@ header.scrolled .logo{
   height: 300px;
   background-color: grey;
   margin-left: 300px;
+}
+
+.content{
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+  }
+  
+  .bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 8px;
+  }
+  
+  .bar:hover{
+    background-color: #fff;
+  }
+  
+  input{
+    display: none;
+  }
+
+  .slides{
+      display: flex;
+      width: 500%;
+      height: 100%;
+  }
+
+  .slide{
+      width: 20%;
+      transition: 0.5s;
+   }
+
+   .slide img{
+       width: 100%;
+       height: 100%;
+   }
+
+#slide1:checked ~ .s1{
+   margin-left: 0;
+
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+    
+}
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+    
+}
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+    
+}
+
+#slide5:checked ~ .s1{
+    margin-left: -80%;
+    
 }
 
