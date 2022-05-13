@@ -410,8 +410,9 @@ header.scrolled .logo{
 }
 
 .content{
-    height: 520px;
-    width: 935px;
+    margin: auto;
+    height: 620px;
+    width: 535px;
     border-radius: 20px;
     overflow: hidden;
     position: absolute;
@@ -447,6 +448,7 @@ header.scrolled .logo{
   }
 
   .slides{
+    
       display: flex;
       width: 500%;
       height: 100%;
@@ -458,6 +460,7 @@ header.scrolled .logo{
    }
 
    .slide img{
+     
        width: 100%;
        height: 100%;
    }
